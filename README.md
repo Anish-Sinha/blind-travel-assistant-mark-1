@@ -63,7 +63,7 @@ The detected text will be displayed in the terminal output in both the detected 
  <div align="center">
     <figure>
         <img width="360" height="300" src="/Example Pictures/Hello.jpg">
-        <img width="460" height="300" src="/Example Pictures/Hello-output.png">
+        <img width="460" height="300" src="/Example Pictures/Hello-output.jpg">
         <p align="center">A simple example of text being translated</p>
     </figure>
 </div>
