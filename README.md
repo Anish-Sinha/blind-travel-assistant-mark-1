@@ -60,14 +60,34 @@ The detected text will be displayed in the terminal output in both the detected 
   > translation = translator.translate(word, dest='fr')
 3. change `fr` to any language you would like by using the corresponding language codes which can be found at [this link](https://py-googletrans.readthedocs.io/en/latest/#googletrans-languages)
 
- <div align="center">
+## Examples
+
+<div align="center">
     <figure>
         <img width="360" height="300" src="/Example Pictures/Hello.jpg">
         <img width="460" height="300" src="/Example Pictures/Hello-output.jpg">
-        <p align="center">A simple example of text being translated</p>
+        <p align="center">Figure 1. A simple example of text being translated</p>
     </figure>
 </div>
 
+<div align="center">
+    <figure>
+        <img width="460" height="300" src="/Example Pictures/danger.jpg">
+        <img width="360" height="300" src="/Example Pictures/danger-output.jpg">
+        <p align="center">Figure 2. Real world example of a Construction Sign being detected and translated</p>
+    </figure>
+</div>
 
 ## Limitations
-If the camera is pointed at an angle, the text detection may be inconsistent. Running the program creates an image file *test.jpg* which is the image that the camera captures. You can use this to understand what your camera saw and can adjust the camera position and orientation accordingly to produce a better result.  
+If the camera is pointed at an angle, the text detection may be inconsistent. Running the program creates an image file *test.jpg* which is the image that the camera captures. You can use this to understand what your camera saw and can adjust the camera position and orientation accordingly to produce a better result.
+
+As shown in the example below (Figure 3), another limitation of the program is the inability to consolidate text across multiple lines into a single phrase. Due to ***Construction*** and ***Zone*** being on separate lines, the program translates those words separately into ***Construction*** and ***Région***. Instead, the correct interpretation should be ***Construction Zone*** which translates to ***Zone de construction*** in `French`.
+
+
+<div align="center">
+    <figure>
+        <img width="460" height="300" src="/Example Pictures/danger.jpg">
+        <img width="360" height="300" src="/Example Pictures/danger-output.jpg">
+        <p align="center">Figure 3. Line by Line translation instead of translating one phrase</p>
+    </figure>
+</div>
