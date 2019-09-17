@@ -60,5 +60,14 @@ The detected text will be displayed in the terminal output in both the detected 
   > translation = translator.translate(word, dest='fr')
 3. change `fr` to any language you would like by using the corresponding language codes which can be found at [this link](https://py-googletrans.readthedocs.io/en/latest/#googletrans-languages)
 
+ <div align="center">
+    <figure>
+        <img width="360" height="300" src="/Example Pictures/Hello.jpg">
+        <img width="460" height="300" src="/Example Pictures/Hello-output.png">
+        <p align="center">A simple example of text being translated</p>
+    </figure>
+</div>
+
+
 ## Limitations
-If the camera is pointed at an angle, the text detection may be inconsistent. Running the program creates an image file *test.jpg* which is the image that the camera captures. You can use this to understand what your camera saw and can adjust the camera position and orientation accordingly to produce a bette result.  
+If the camera is pointed at an angle, the text detection may be inconsistent. Running the program creates an image file *test.jpg* which is the image that the camera captures. You can use this to understand what your camera saw and can adjust the camera position and orientation accordingly to produce a better result.  
