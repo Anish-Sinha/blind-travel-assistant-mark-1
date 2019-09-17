@@ -47,6 +47,12 @@ sudo pip --no-cache=dir install googletrans
 ```
 
 ## Running the Code
+To copy the repository and download the code to your device, run the following commands in the terminal:
+```bash
+git clone https://github.com/Anish-Sinha/travel-assistant.git
+cd travel-assitant
+```
+
 To run the program, first make sure the camera is pointed directly at something that contains text. Next run the following command in the terminal:
 
 ```bash
