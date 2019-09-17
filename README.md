@@ -57,7 +57,7 @@ The detected text will be displayed in the terminal output in both the detected 
 
 1. open the file **ocr.py** in your preferred text editor
 2. go to line **21** in the file: 
-  > translation = translaor.translate(word, dest='fr')
+  > translation = translator.translate(word, dest='fr')
 3. change `fr` to any language you would like by using the corresponding language codes which can be found at [this link](https://py-googletrans.readthedocs.io/en/latest/#googletrans-languages)
 
 ## Limitations
